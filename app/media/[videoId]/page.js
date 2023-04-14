@@ -5,10 +5,6 @@ import { useState, useEffect } from "react";
 import { useSearchParams, redirect } from "next/navigation";
 
 // This page doesn't get any data from the video playlists since it only grabs the url
-export const metadata = {
-  title: "Media | BoysPlanet",
-  description: "Boys Planet video contents.",
-};
 
 const VideoPage = () => {
   const [reactPlayerUi, setReactPlayUi] = useState(false);
