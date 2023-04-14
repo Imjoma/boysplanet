@@ -13,7 +13,7 @@ async function getData() {
   // RECENT CLIPS
   const recentClipsId = "PLjUVzlcpeN4TqrYXZiIIYcLr5Ww5ujTeV";
   // ARTIST BATTLE
-  const artistBattleId = "PLE4EHwao_mekSOmQ_FEhPDxXoQTWkb4aw";
+  const artistBattleId = "PLL9VZM3aqsLVXtCXfryRwHNspC_HEgI8f";
 
   const [recentClipsRes, artistBattleRes] = await Promise.all([
     fetch(

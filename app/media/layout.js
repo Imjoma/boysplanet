@@ -29,8 +29,8 @@ async function getData() {
   // ...returns(12)
   const dualPositionBattleId = "PLE4EHwao_memx4kx1psf63LP6dsK-nKDC";
   // ARTIST BATTLE
-  //...return(2) current
-  const artistBattleId = "PLE4EHwao_mekSOmQ_FEhPDxXoQTWkb4aw";
+  //...return(5) current
+  const artistBattleId = "PLL9VZM3aqsLVXtCXfryRwHNspC_HEgI8f";
 
   const [
     recentClipsRes,
