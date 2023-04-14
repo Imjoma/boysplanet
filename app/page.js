@@ -11,15 +11,13 @@ async function getData() {
     "https://www.googleapis.com/youtube/v3/playlistItems";
 
   // RECENT CLIPS
-  // ...returns(50) max
   const recentClipsId = "PLjUVzlcpeN4TqrYXZiIIYcLr5Ww5ujTeV";
   // ARTIST BATTLE
-  const artistBattleId = "PLL9VZM3aqsLVXtCXfryRwHNspC_HEgI8f";
+  const artistBattleId = "PLE4EHwao_mekSOmQ_FEhPDxXoQTWkb4aw";
 
   const [recentClipsRes, artistBattleRes] = await Promise.all([
     fetch(
-      `${YOUTUBE_PLAYLIST_API_KEY}?part=snippet&maxResults=9&playlistId=${recentClipsId}&key=${process.env.YOUTUBE_API_KEY}`,
-      { cache: "no-store" }
+      `${YOUTUBE_PLAYLIST_API_KEY}?part=snippet&maxResults=9&playlistId=${recentClipsId}&key=${process.env.YOUTUBE_API_KEY}`
     ),
     fetch(
       `${YOUTUBE_PLAYLIST_API_KEY}?part=snippet&maxResults=9&playlistId=${artistBattleId}&key=${process.env.YOUTUBE_API_KEY}`
