@@ -12,7 +12,9 @@ const VideoItem = ({ video, title }) => {
   const videoTitle = video.snippet.title;
   const videoDescription = video.snippet.description;
   const videoLinkId = "/media/video?id=" + video.snippet.resourceId.videoId;
-  const videoThumbnail = video.snippet.thumbnails.standard.url;
+  // const videoThumbnail = video.snippet.thumbnails.standard.url;
+  const altVideoThumbnail = `https://img.youtube.com/vi/${video.snippet.resourceId.videoId}/sddefault.jpg`;
+
   const videoAlt = video.snippet.title + " Video Thumbnail";
   const currentUrl = searchParams.get("id");
   const isPlaying = videoLinkId.includes(currentUrl);
@@ -40,10 +42,12 @@ const VideoItem = ({ video, title }) => {
       >
         <div className="relative aspect-video">
           <Image
-            src={videoThumbnail}
+            src={altVideoThumbnail}
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt={videoAlt}
             className="absolute object-cover rounded-md"
+            loading="lazy"
           />
           {isPlaying && (
             <div className="absolute grid w-full h-full font-mono bg-black border rounded-md opacity-80 place-content-center">

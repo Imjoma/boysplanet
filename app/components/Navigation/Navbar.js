@@ -34,14 +34,15 @@ const Navbar = () => {
       {/* if don't want a max-width:  max-w-[1920px] */}
       {pagePath ? (
         <nav className="fixed top-0 max-w-4xl lg:max-w-3xl h-28 lg:hidden  z-50 flex items-center bg-gradient-to-b from-[#120A30] to-transparent  flex-row justify-between w-full px-4 py-4 ">
-          <div className="origin-top-left lg:scale-110">
+          <div className="origin-top-left ">
             <Link href="/">
               <Image
                 src={boysplanetLogo}
-                width="90"
-                height="90"
+                width="0"
+                height="40"
                 alt="Boysplanet Logo"
                 priority
+                className="h-auto "
               />
             </Link>
           </div>

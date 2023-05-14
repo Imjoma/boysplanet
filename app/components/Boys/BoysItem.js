@@ -19,6 +19,7 @@ const BoysItem = ({ boy }) => {
                 src={imagePathLocal}
                 alt={nameDefault + "profile image"}
                 fill
+                sizes="(max-width: 768px) 200px"
                 className="absolute rounded-xl"
               />
               <div className="absolute bottom-0 right-0 p-1 scale-75 sm:scale-100 sm:p-2">

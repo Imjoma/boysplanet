@@ -19,6 +19,8 @@ const ReelItem = ({ boy }) => {
             src={imagePathLocal}
             alt={nameDefault}
             fill
+            sizes="(max-width: 768px) 64px"
+            quality={40}
             className="absolute scale-105 rounded-full"
           />
         </div>

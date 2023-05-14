@@ -1,9 +1,5 @@
 import Reel from "./components/Reel/Reel";
 import HomeHeader from "./components/Home/HomeHeader";
-
-import Announcement from "./components/Home/Announcement";
-import SignalSongVideo from "./components/Home/SignalSongVideo";
-
 import DynamicContent from "./components/DynamicContent/DynamicContent";
 
 async function getData() {

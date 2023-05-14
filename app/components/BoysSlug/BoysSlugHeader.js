@@ -25,6 +25,7 @@ const BoysSlugHeader = ({ data }) => {
           src={profileBanner}
           alt={data.name.en + "profile banner"}
           fill
+          sizes="(max-width: 768px) 360px"
           priority
           className="absolute object-cover rounded-bl-xl rounded-br-xl"
         />
@@ -44,6 +45,7 @@ const BoysSlugHeader = ({ data }) => {
             src={imagePathLocal}
             alt={data.name.en + "profile image"}
             fill
+            sizes="(max-width: 768px) 100px"
             priority
             className="absolute rounded-full group-hover:opacity-40"
           />

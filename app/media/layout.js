@@ -112,9 +112,6 @@ const MediaLayout = async ({ children }) => {
         dualPositionBattleList={dualPositionBattleList.items}
         artistBattleList={artistBattleList.items}
       />
-
-      {/* footer */}
-      {/* <section className="pb-24"></section> */}
     </main>
   );
 };

@@ -227,18 +227,3 @@ const MnetChatbox = () => {
 };
 
 export default MnetChatbox;
-
-{
-  /* <p className=" rounded-2xl max-w-fit bg-[#322D59] p-3">
-This is the official{" "}
-<a
-  target="_blank"
-  rel="noreferrer"
-  href="https://service.mnetplus.world/boysplanet/en/home"
-  className="text-blue-500 underline"
->
-  {"Boysplanet.net"}
-</a>{" "}
-website.
-</p> */
-}

@@ -24,14 +24,6 @@ const CTA = () => {
       ) : (
         ""
       )}
-      {/* <div className="p-4 ">
-           <div className="flex flex-row justify-between w-full p-4 bg-[#24145f] rounded-md">
-             <div className="text-sm text-white">Post Hidden</div>
-             <div className="text-sm text-white" onClick={() => setCta(true)}>
-               Undo
-             </div>
-           </div>
-         </div> */}
     </>
   );
 };

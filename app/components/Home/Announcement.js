@@ -1,8 +1,5 @@
 import React from "react";
 
-// might change to content not mine
-// - if you encounter this web app misleading from the Official Mnet/Boysplanet. Report this guy
-
 const Announcement = () => {
   return (
     <div className="flex flex-col space-y-2">

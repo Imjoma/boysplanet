@@ -46,15 +46,6 @@ const DynamicContent = ({ recentClipsList, artistBattleList }) => {
           videoList={artistBattleList}
         />
       </section>
-      {/* reels */}
-      {/* <section className="py-4">
-        <RecentVideo
-          title="recent clips"
-          mySwiper={mySwiper}
-          thumbnailView={thumbnailView}
-          videoList={recentClipsList}
-        />
-      </section> */}
     </>
   );
 };

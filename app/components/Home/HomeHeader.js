@@ -23,6 +23,7 @@ const HomeHeader = () => {
           src={boysplanetBackgroundImage}
           alt={"Boysplanet Background Image "}
           fill
+          sizes="(max-width: 768px) 320px"
           priority
           className="absolute object-cover rounded-xl"
         />
@@ -34,10 +35,10 @@ const HomeHeader = () => {
         <Image
           src={boysplanetLogo}
           alt="Boysplanet Logo Header"
-          width={200}
-          height={200}
           priority
-          className="origin-bottom md:scale-125"
+          width={0}
+          height={90}
+          className="h-auto origin-bottom md:scale-125"
         />
         <p className="text-xs text-center text-white">
           5th Generation
@@ -56,6 +57,7 @@ const HomeHeader = () => {
           src={infoBanner}
           alt="What is Boysplanet Banner"
           fill
+          sizes="(max-width: 768px) 48px"
           priority
           className={`object-cover ${isCenter} absolute rounded-lg`}
         />
